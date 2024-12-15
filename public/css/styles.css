@@ -1,0 +1,36 @@
+.separator {
+    margin-bottom: 60px;
+}
+
+.priority {
+    z-index: 10000;
+}
+
+.construction {
+
+    width: 50vw;
+    /* 50% of the viewport width */
+
+    height: 0;
+    /* Set height to 0 */
+
+    padding-bottom: 50%;
+    /* This creates a square based on the width */
+
+    background-color: lightblue;
+    /* Example background color */
+
+}
+
+.caption-shadow {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%);
+}
+
+.negative-margin {
+    margin-top: -50px;
+}
+
+.btn {
+    z-index: 5;
+}
